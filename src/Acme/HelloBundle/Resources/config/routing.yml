@@ -1,0 +1,3 @@
+hello:
+   pattern:  /test-name/{name}
+   defaults: { _controller: AcmeHelloBundle:Hello:test }
