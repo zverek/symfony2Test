@@ -26,7 +26,7 @@ class __TwigTemplate_327e486ece8cb2dbff66d32c9a98243b extends Twig_Template
     public function block_body($context, array $blocks = array())
     {
         // line 3
-        echo "<div style=\"margin-left:300px; color:red;\"> Hello: ";
+        echo "<div style=\"margin-left:300px; color:red;\"> Hello!: ";
         echo twig_escape_filter($this->env, $this->getContext($context, "name"), "html", null, true);
         echo " !</div>
 ";
